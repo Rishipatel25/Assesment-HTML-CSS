@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Revo Studio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav class="container" id="header">
+            <div class="logo"><span>RE</span>VO STUDIO</div>
+            <div class="menu">
+                <ul class="menulist">
+                    <li class="menu">HOME</li>
+                    <li class="menu">SERVICES</li>
+                    <li class="menu">PORTFOLIO</li>
+                    <li class="menu">TEAM</li>
+                    <li class="menu">PLANS</li>
+                    <li class="menu">CONTACT</li>
+                </ul>
+            </div>
+        </nav>
+        <section class="image-slider">
+            <div class="slider1">
+                <img class="pos-absolute" src="./revo-studio/img/slide2.jpg" alt="SliderImage2" width="100%" height="100%">
+                <div class="slider-txt-container">
+                    <p class="slider-super-heading">WE ARE DESIGN NINJA</p>
+                    <h1 class="slider-main-heading">REVO STUDIO</h1>
+                    <p class="slider-sub-para">The most important thing are not things, so well'll design experiences</p>
+                    <a href="" class="slider-btn">START WITH US</a>
+                </div>
+
+            </div>
+        </section>
+    </header>
+    <section class="weareawesome mt-5 txt-center">
+        <div class="container">
+            <h2>WE ARE AWESOME WEB AGENCY</h2>
+            <div class="strike-dots">
+                    <div class="dots"></div>
+                    <div class="dots"></div>
+                    <div class="dots"></div>
+
+            </div>
+            <p>The difference between a Designer and Developer when it comes to design skills, is the difference between shooting a bullet and throwing it</p>
+        </div>
+    </section>
+
+    <section class="agency-info container mt-5">
+        <div class="card-info">
+            <div class="icon">Icon</div>
+            <div class="title">
+                Branding
+            </div>
+            <div class="strike-dots">
+                <div class="dots"></div>
+                <div class="dots"></div>
+                <div class="dots"></div>
+            </div>
+
+            <p class="txt-center color-gray">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illum voluptas molestias, quo cupiditate</p>
+
+        </div>
+        <div class="card-info">
+            <div class="icon">Icon</div>
+            <div class="title">
+                Branding
+            </div>
+            <div class="strike-dots">
+                <div class="dots"></div>
+                <div class="dots"></div>
+                <div class="dots"></div>
+            </div>
+
+            <p class="txt-center color-gray">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illum voluptas molestias, quo cupiditate</p>
+
+        </div>
+        <div class="card-info">
+            <div class="icon">Icon</div>
+            <div class="title">
+                Branding
+            </div>
+            <div class="strike-dots">
+                <div class="dots"></div>
+                <div class="dots"></div>
+                <div class="dots"></div>
+            </div>
+
+            <p class="txt-center color-gray">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illum voluptas molestias, quo cupiditate</p>
+
+        </div>
+
+    </section>
+
+    <section class="our-partners container mt-5" >
+        <div class="container txt-center">
+            <h2 class="heading">
+                OUR PORTFOLIO
+            </h2>
+            <div class="strike-dots">
+                <div class="dots"></div>
+                <div class="dots"></div>
+                <div class="dots"></div>
+            </div>
+
+            <div class="links-portfolio">
+                <a href="" class="portfolio">ALL</a>
+                <a href="" class="portfolio">PHOTO</a>
+                <a href="" class="portfolio">VIDEO</a>
+            </div>
+        </div>
+    </section>
+
+    <script>
+    console.log("hello");
+    window.onscroll = function() {myFunction()};
+
+    let header = document.getElementById("header");
+    let sticky = header.offsetTop;
+
+    function myFunction() {
+
+    if (window.pageYOffset > sticky) {
+        header.classList.add("sticky");
+        } else {
+            header.classList.remove("sticky");
+        }
+    }
+    </script>
+</body>
+</html>
